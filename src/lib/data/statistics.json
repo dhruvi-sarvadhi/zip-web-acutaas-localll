@@ -1,0 +1,62 @@
+{
+  "homeStatistics": [
+    {
+      "icon": "award",
+      "type": "regular",
+      "value": 21,
+      "unit": "",
+      "label": "Proven Expertise"
+    },
+    {
+      "icon": "users",
+      "type": "regular",
+      "value": 500,
+      "unit": "",
+      "label": "Global Customers"
+    },
+    {
+      "icon": "box-open",
+      "type": "regular",
+      "value": 450,
+      "unit": "",
+      "label": "Active Products"
+    },
+    {
+      "icon": "user-graduate",
+      "type": "regular",
+      "value": 775,
+      "unit": "",
+      "label": "Skilled Professionals"
+    }
+  ],
+  "aboutStatistics": [
+    {
+      "icon": "employees",
+      "type": "regular",
+      "value": 500,
+      "unit": "",
+      "label": "Global Customers"
+    },
+    {
+      "icon": "boxes",
+      "type": "regular",
+      "value": 450,
+      "unit": "",
+      "label": "Active Products"
+    },
+    {
+      "icon": "skill-alt",
+      "type": "regular",
+      "value": 775,
+      "unit": "",
+      "label": "Skilled Professionals"
+    },
+    {
+      "icon": "diploma",
+      "type": "regular",
+      "value": 21,
+      "unit": "Years",
+      "label": "Proven Expertise"
+    }
+  ]
+}
