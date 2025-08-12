@@ -1,5 +1,6 @@
 import SectionHeader from '@/components/common/SectionHeader';
 import { ScanFace } from 'lucide-react';
+import { describe } from 'node:test';
 import React from 'react';
 
 const AwardSection = () => {
@@ -24,7 +25,8 @@ const AwardSection = () => {
         },
         {
             image: '/images/award-image.png',
-            name: 'Trishus Recognized for sustained export excellence, driving growth and strengthening presence in global markets.', 
+            name: 'Trishus Recognized ',
+            description: 'sustained export excellence, driving growth and strengthening presence in global markets.',
             award: 'Trishul Award'
         },
         {
