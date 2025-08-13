@@ -6,8 +6,8 @@ const MissionSection: React.FC = () => {
       <div className="main-container">
         <div className="flex flex-col gap-8 md:gap-10 lg:gap-14">
           <SectionHeader title="Our Mission" />
-          <div className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] !leading-tight font-semibold text-[#968E90]">
-            <span className='text-[#231F20]'> We are on a mission to build a globally</span>  connected intermediate enterprise where
+          <div className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] !leading-tight font-semibold text-[#231F20]">
+            We are on a mission to build a globally connected intermediate enterprise where
             innovation drives discovery, technology accelerates progress, and quality remains the
             foundation of every molecule, process and partnership we deliver.
           </div>

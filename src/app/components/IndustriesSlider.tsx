@@ -31,7 +31,7 @@ const IndustriesSlider: React.FC = () => {
         children={slides}
         spaceBetween={24}
         slidesPerView={3}
-        autoplay={true}
+        // autoplay={true}
         onSwiper={(swiper) => (swiperRef.current = swiper)}
         className="!overflow-visible"
         breakpoints={{
@@ -58,7 +58,7 @@ const IndustriesSlider: React.FC = () => {
           <ArrowIcon direction="left" fill="#8F7C79" className="w-5 h-5 lg:w-6 lg:h-6" />
         </button>
         <Link href="/contact-us">
-        <Button variant="outline">Connect for Industry Fit</Button>
+          <Button variant="outline">Connect for Industry Fit</Button>
         </Link>
         <button
           className="flex h-9 w-9 items-center justify-center rounded-[6px] border border-[#BCB2B2] transition-all duration-300 hover:bg-[#FFF2EF] lg:h-11 lg:w-11 lg:rounded-[10px]"

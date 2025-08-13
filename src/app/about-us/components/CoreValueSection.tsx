@@ -78,7 +78,7 @@ const CoreValueSection: React.FC = () => {
               children={slides}
               spaceBetween={24}
               slidesPerView={3}
-              autoplay={true}
+              // autoplay={true}
               onSwiper={(swiper) => (swiperRef.current = swiper)}
               className="!overflow-visible"
               breakpoints={{

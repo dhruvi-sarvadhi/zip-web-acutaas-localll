@@ -57,7 +57,7 @@ const RecentNewsSlider: React.FC = () => {
         children={slides}
         spaceBetween={24}
         slidesPerView={'auto'}
-        autoplay={true}
+        // autoplay={true}
         pagination={true}
         breakpoints={{
           0: {
