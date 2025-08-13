@@ -6,8 +6,8 @@ const AnalyticalCapabilitiesSection: React.FC = () => {
   const bullets = [
     'HPLC, UPLC, GC, LC-MS systems',
     'IR, UV, GC-MS, DSC analysis tools',
-    'mpurity and stability studies',
-    'Method development and transfer',
+    'Impurity and stability studies',
+    'Method development & transfer',
   ];
 
   return (

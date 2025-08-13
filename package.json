@@ -39,7 +39,7 @@
     "warning": "🚨 CRITICAL: DO NOT REMOVE OR MODIFY ABOVE DEPENDENCIES - Required for Next.js 15 TypeScript app functionality"
   },
   "scripts": {
-    "local": "env-cmd -f .env.local next dev -p 3000",
+    "local": "env-cmd -f .env.local next dev -p 3003",
     "dev": "env-cmd -f .env.development next dev -p 3001",
     "prd": "env-cmd -f .env.production next start -p 3002",
     "build:local": "env-cmd -f .env.local next build",

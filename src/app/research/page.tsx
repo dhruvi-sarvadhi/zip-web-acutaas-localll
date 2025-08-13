@@ -30,8 +30,6 @@ const ResearchPage: React.FC = () => {
 
       <ResearchAreasSection />
 
-      {/* <SpecificExperienceSection /> */}
-
       <CapabilitiesGrid
         title="Our Technology Platforms"
         background="muted"
@@ -39,7 +37,7 @@ const ResearchPage: React.FC = () => {
         ctaLabel="Explore our Solution"
       />
 
-      {/* <ProcessSection /> */}
+      <SpecificExperienceSection />
 
     </>
   );
