@@ -3,19 +3,18 @@ import StatCard from '@/components/common/StatCard';
 import SectionIntro from '@/components/common/SectionIntro';
 
 
-const stats =[
+const stats = [
   {
-    "value": "150",
-    "label": "Lorem Ipsum",
-    "description": "text of the printing and typesetting industry."
+    "value": "25",
+    "label": "Core Reactions",
+    "description": "Expertise across diverse chemistries"
   },
   {
-    "value": "450",
-    "label": "Lorem Ipsum",
-    "description": "text of the printing and typesetting industry."
+    "value": "2",
+    "label": "Reactor Types",
+    "description": "Flow and microreactor capabilities"
   }
 ]
-
 
 const ProcessChemistrySection: React.FC = () => {
   return (
@@ -24,11 +23,9 @@ const ProcessChemistrySection: React.FC = () => {
         <div className="flex flex-col gap-8 md:gap-10 lg:gap-14">
           <SectionHeader title="Process chemistry capability & infrastructure" />
 
-          <SectionIntro 
-          title = 'There are many variations of passages of Lorem Ipsum'
-          description='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-              has been the industrys standard dummy text ever since the 1500s, when an unknown
-              printer took a galley of type and scrambled.'/>
+          <SectionIntro
+            title='Chemistry Created for Industry Needs'
+            description='ACUTAAS brings together deep chemical know-how and purpose-built infrastructure to create processes that are safe, scalable, and efficient for industries worldwide.' />
 
 
           <div className="grid grid-cols-1 gap-5 md:gap-6 lg:grid-cols-3">

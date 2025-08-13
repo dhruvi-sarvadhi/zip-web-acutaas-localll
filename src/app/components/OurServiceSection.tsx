@@ -54,7 +54,8 @@ const OurServiceSection: React.FC = () => {
           </div>
 
           <p className="text-lg sm:text-xl lg:text-[32px] !leading-relaxed font-medium text-[#231f20]">
-            <b>We lead projects from the ground up</b> with scientific clarity, technical strength and reliable execution from first step to final delivery.
+            We lead projects from the ground up with scientific clarity, technical strength and
+            reliable execution from first step to final delivery.
           </p>
         </div>
       </div>

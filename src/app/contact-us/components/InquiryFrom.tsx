@@ -53,7 +53,7 @@ const InquiryFrom: React.FC = () => {
       phone: '',
       message: '',
     },
-  }); 
+  });
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
     // const { agreePolicy, ...dataToSubmit } = values;
@@ -71,120 +71,120 @@ const InquiryFrom: React.FC = () => {
   }
 
   const inputClass =
-    'bg-transparent h-[52px] border-0 border-b-[1px] border-[#8F7C7966] !text-xl placeholder:text-[#8F7C79] rounded-none';
+    'bg-transparent h-11 lg:h-[52px] border-0 border-b-[1px] border-[#8F7C7966] !text-base md:!text-lg lg:!text-xl placeholder:text-[#8F7C79] rounded-none';
 
   return (
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className="flex flex-col gap-4 sm:gap-6 contact-form"
+        className="flex flex-col gap-8 md:gap-10 lg:gap-14 contact-form"
       >
-        {/* Your Name */}
-        <FormField
-          control={form.control}
-          name="fullName"
-          render={({ field }) => (
-            <FormItem>
-              <FormControl>
-                <Input className={inputClass} placeholder="Your Name" {...field} />
-              </FormControl>
-              <FormMessage />
-            </FormItem>
-          )}
-        />
+        <div className="flex flex-col gap-6 md:gap-8 lg:gap-10">
+          {/* Your Name */}
+          <FormField
+            control={form.control}
+            name="fullName"
+            render={({ field }) => (
+              <FormItem>
+                <FormControl>
+                  <Input className={inputClass} placeholder="Your Name" {...field} />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
 
-        {/* Email */}
-        <FormField
-          control={form.control}
-          name="email"
-          render={({ field }) => (
-            <FormItem>
-              <FormControl>
-                <Input type="email" className={inputClass} placeholder="Your Email" {...field} />
-              </FormControl>
-              <FormMessage />
-            </FormItem>
-          )}
-        />
+          {/* Email */}
+          <FormField
+            control={form.control}
+            name="email"
+            render={({ field }) => (
+              <FormItem>
+                <FormControl>
+                  <Input type="email" className={inputClass} placeholder="Your Email" {...field} />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
 
-        {/* Phone Number */}
-        <FormItem>
-          <FormLabel className="text-sm font-normal text-[#231F20]">Phone Number</FormLabel>
-          <div className="flex gap-6 contact-page-number">
-            {/* Country Code */}
-            <FormField
-              control={form.control}
-              name="countryCode"
-              render={({ field }) => (
-                <PhoneInput
-                  country={'in'}
-                  value={field.value}
-                  onChange={(data) => {
-                    form.setValue('countryCode', `+${data}`, { shouldValidate: true });
-                  }}
-                  enableSearch
-                  disableCountryCode={true}
-                  disableDropdown={false}
-                  inputStyle={{
-                    width: '112px',
-                    height: '38px',
-                    border: 'none',
-                    fontWeight: '600',
-                    fontSize: '14px',
-                  }}
-                  buttonStyle={{
-                    border: 'none',
-                    background: 'transparent',
-                  }}
-                />
-              )}
-            />
+          {/* Phone Number */}
+          <FormItem>
+            <div className="flex items-start gap-4 md:gap-6 contact-page-number">
+              {/* Country Code */}
+              <FormField
+                control={form.control}
+                name="countryCode"
+                render={({ field }) => (
+                  <PhoneInput
+                    country={'in'}
+                    value={field.value}
+                    onChange={(data) => {
+                      form.setValue('countryCode', `+${data}`, { shouldValidate: true });
+                    }}
+                    enableSearch
+                    disableCountryCode={true}
+                    disableDropdown={false}
+                    inputStyle={{
+                      border: 'none',
+                      fontWeight: '600',
+                      fontSize: '14px',
+                    }}
+                    buttonStyle={{
+                      border: 'none',
+                      background: 'transparent',
+                    }}
+                    inputClass="!h-11 !w-16 lg:!h-[51px] md:!w-[112px]"
+                  />
+                )}
+              />
 
-            {/* Phone Number */}
-            <FormField
-              control={form.control}
-              name="phone"
-              render={({ field }) => (
-                <FormItem className="flex-1">
-                  <FormControl>
-                    <Input
-                      type="tel"
-                      className={inputClass}
-                      placeholder="55500 00000"
-                      value={field.value}
-                      onChange={(e) => {
-                        const digitsOnly = e.target.value.replace(/\D/g, '');
-                        if (digitsOnly.length <= 15) {
-                          field.onChange(digitsOnly);
-                        }
-                      }}
-                      onBlur={field.onBlur}
-                    />
-                  </FormControl>
-                  <FormMessage />
-                </FormItem>
-              )}
-            />
-          </div>
-        </FormItem>
+              {/* Phone Number */}
+              <FormField
+                control={form.control}
+                name="phone"
+                render={({ field }) => (
+                  <FormItem className="flex-1">
+                    <FormControl>
+                      <Input
+                        type="tel"
+                        className={inputClass}
+                        placeholder="55500 00000"
+                        value={field.value}
+                        onChange={(e) => {
+                          const digitsOnly = e.target.value.replace(/\D/g, '');
+                          if (digitsOnly.length <= 15) {
+                            field.onChange(digitsOnly);
+                          }
+                        }}
+                        onBlur={field.onBlur}
+                      />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+            </div>
+          </FormItem>
 
-        {/* Message */}
-        <FormField
-          control={form.control}
-          name="message"
-          render={({ field }) => (
-            <FormItem>
-              <FormControl>
-                <Textarea
-                  placeholder="Your Messages"
-                  className="bg-transparent h-32 mt-[6px] border-0 border-b-[1px] border-[#8F7C7966] px-4 py-3 !text-xl rounded-none"
-                  {...field}
-                />
-              </FormControl>
-              <FormMessage />
-            </FormItem>
-          )}
-        />
+          {/* Message */}
+          <FormField
+            control={form.control}
+            name="message"
+            render={({ field }) => (
+              <FormItem>
+                <FormControl>
+                  <Textarea
+                    placeholder="Your Messages"
+                    className="bg-transparent h-24 md:h-28 lg:h-32 mt-[6px] border-0 border-b-[1px] border-[#8F7C7966] px-4 py-3 !text-base md:!text-lg lg:!text-xl rounded-none"
+                    {...field}
+                  />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+        </div>
 
         <Button type="submit" className="w-full mt-2">
           Send Message

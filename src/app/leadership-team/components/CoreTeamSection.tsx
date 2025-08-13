@@ -68,9 +68,9 @@ const CoreTeamSection: React.FC = () => {
           </div>
           <div>
             <p className="!leading-[1.2] text-[#231F20] font-semibold text-xl md:text-3xl lg:text-[40px]">
-              Our core team is the driving force behind everything we do With a mix of experience,
+              Our core team is the driving force behind everything we do. With a mix of experience,
               insight and hands-on leadership, they guide our journey, solve real challenges and
-              help ACUTAAS grow stronger every day in the world of chemicals.
+              help ACUTAAS grow stronger every day in the world of chemicals. 
             </p>
           </div>
         </div>

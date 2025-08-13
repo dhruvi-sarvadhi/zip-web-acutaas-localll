@@ -197,27 +197,6 @@ img {
   animation: fadeInOut 0.6s ease-in-out;
 }
 
-
-.slider-container {
-  width: 100%;
-}
-
-.slider-track {
-  display: flex;
-  gap: 2.5rem;
-  animation: scroll-left 10s linear infinite;
-}
-
-@keyframes scroll-left {
-  0% {
-    transform: translateX(0);
-  }
-
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
 .contact-form .flag-dropdown {
   background: none !important;
 }
@@ -244,4 +223,24 @@ img {
 .contact-page-number .react-tel-input .flag-dropdown {
   left: 50%;
   transform: translateX(-50%);
+}
+
+.slider-container {
+  width: 100%;
+}
+
+.slider-track {
+  display: flex;
+  gap: 2.5rem;
+  animation: scroll-left 10s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
 }

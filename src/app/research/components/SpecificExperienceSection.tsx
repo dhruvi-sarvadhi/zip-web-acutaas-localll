@@ -1,7 +1,5 @@
-import PageIntro from '@/components/common/PageIntro';
 import SectionHeader from '@/components/common/SectionHeader';
 import SectionSideIntro from '@/components/common/SectionSideIntro';
-import Button from '@/components/ui/Button';
 import { Sparkle } from 'lucide-react';
 
 const Bullet: React.FC = () => (
@@ -30,7 +28,7 @@ const SpecificExperienceSection: React.FC = () => {
     <section className="overflow-hidden py-12 md:py-16 lg:py-20">
       <div className="main-container">
         <div className="flex flex-col gap-8 md:gap-10 lg:gap-14">
-          <SectionHeader title="Specific experience" />
+          <SectionHeader title="Specific Experience" />
           <div className="grid grid-cols-1 items-start gap-8 lg:grid-cols-2 lg:gap-12">
 
             <SectionSideIntro

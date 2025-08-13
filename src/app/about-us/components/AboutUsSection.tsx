@@ -12,10 +12,10 @@ const AboutUsSection: React.FC = () => {
             <div className="max-w-[588px] mx-auto lg:mx-0">
               <div className="flex flex-col gap-5 lg:w-[77%]">
                 <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] font-semibold leading-snug">
-                  Evolving Chemistry Since 2004
+                Evolving Chemistry Since 2004
                 </h2>
                 <p className="text-base mx-auto lg:mx-0">
-                  Founded in 2004 and rebranded as ACUTAAS in 2025, we have grown from a specialized intermediate firm into a publicly listed global enterprise focused on research driven chemistry and scalable innovation.
+                Founded in 2004 and rebranded as ACUTAAS in 2025, we have grown from a specialized intermediate firm into a publicly listed global enterprise focused on research driven chemistry and scalable innovation.
                 </p>
               </div>
               <div className="border-t border-[#BCB2B2] w-full my-8 lg:my-10"></div>
@@ -58,7 +58,7 @@ const AboutUsSection: React.FC = () => {
               </div>
               <div className="mt-8 md:mt-12 lg:mt-16 flex items-center gap-6 md:gap-8 lg:gap-10 flex-wrap">
                 <Link href='/capabilities'>
-                  <Button>Explore Our Capabilities</Button>
+                <Button>Explore Our Capabilities</Button>
                 </Link>
               </div>
             </div>

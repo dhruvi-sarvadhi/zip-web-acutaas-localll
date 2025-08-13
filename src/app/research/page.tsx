@@ -12,9 +12,10 @@ const ResearchPage: React.FC = () => {
   return (
     <>
       <PageIntro
-        title="Research and Development"
-        description="Advancing intermediates through rigorous science, robust processes, and state-of-the-art infrastructure."
+        title="Advancing Science With Purpose"
+        description="At ACUTAAS, research means creating change, turning possibilities into solutions that add value for industries and communities worldwide."
         buttonLabel="Contact Us"
+        pageUrl='/contact-us'
       />
 
       <HeroImageSection imageSrc="/images/research-banner-image.png" imageAlt="Research Banner" />
@@ -29,13 +30,13 @@ const ResearchPage: React.FC = () => {
 
       <ResearchAreasSection />
 
-      <SpecificExperienceSection />
+      {/* <SpecificExperienceSection /> */}
 
       <CapabilitiesGrid
-        title="Analytical capabilities"
+        title="Our Technology Platforms"
         background="muted"
-        headline="Lorem Ipsum is simply dummy text of the printing"
-        ctaLabel="Button Text"
+        headline="Technology That Powers Every Process"
+        ctaLabel="Explore our Solution"
       />
 
       {/* <ProcessSection /> */}

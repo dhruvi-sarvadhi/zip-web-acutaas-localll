@@ -16,6 +16,7 @@ const AboutPage: React.FC = () => {
         title="Advancing Tomorrow Through Science"
         description="As a listed global enterprise, we deliver value through science scale and trust built over two decades of innovation in advanced intermediates and beyond."
         buttonLabel="Reach Out"
+        pageUrl='/contact-us'
       />
       <HeroImageSection
         imageSrc="/images/about-banner-image.png"

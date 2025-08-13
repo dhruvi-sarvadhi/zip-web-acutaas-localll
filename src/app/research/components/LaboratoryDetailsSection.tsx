@@ -7,24 +7,24 @@ import { FlaskConical } from 'lucide-react';
 const LaboratoryDetailsSection: React.FC = () => {
     const features: { title: string; icon: React.ReactNode; desc: string }[] = [
         {
-            title: 'Lorem Ipsum',
+            title: 'R&D Space',
             icon: <i className="fi fi-rr-flask text-[#231F20] text-xl leading-none"></i>,
-            desc: 'text of the printing and typesetting industry. Lorem Ipsum has been',
+            desc: 'DSIR-approved center spanning 2,200 SQ MT.',
         },
         {
-            title: 'Lorem Ipsum',
+            title: 'Laboratory Units',
             icon: <i className="fi fi-br-bio-leaves text-[#231F20] text-xl leading-none"></i>,
-            desc: 'text of the printing and typesetting industry. Lorem Ipsum has been',
+            desc: '4 labs equipped with 30 advanced fume hoods.',
         },
         {
-            title: 'Lorem Ipsum',
+            title: 'Pilot Plant',
             icon: <i className="fi fi-br-bio-leaves text-[#231F20] text-xl leading-none"></i>,
-            desc: 'text of the printing and typesetting industry. Lorem Ipsum has been',
+            desc: 't8 reactors with temperature and pressure contro.',
         },
         {
-            title: 'Lorem Ipsum',
+            title: 'Special Equipment',
             icon: <i className="fi fi-rr-flask text-[#231F20] text-xl leading-none"></i>,
-            desc: 'text of the printing and typesetting industry. Lorem Ipsum has been',
+            desc: 'Hydrogenators and high vacuum distillation units.',
         },
     ];
 
@@ -36,8 +36,8 @@ const LaboratoryDetailsSection: React.FC = () => {
                     <div className="grid grid-cols-1 items-start gap-8 lg:grid-cols-2 lg:gap-12">
                         <div className="order-2 flex flex-col gap-12 md:gap-14 lg:order-1">
                             <SectionSideIntro
-                                title=' Lorem Ipsum is simply dummy text'
-                                description=' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.when an unknown printer took a galley of type and scrambled.' />
+                                title='Labs Designed for Discovery'
+                                description='Our R&D spaces are built to enable innovation, rigorous experimentation, and scalable development that turn ideas into market-ready solutions.' />
 
                             <FeatureList features={features} />
                         </div>

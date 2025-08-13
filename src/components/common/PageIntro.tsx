@@ -6,6 +6,7 @@ interface PageIntroProps {
   description: string;
   buttonLabel: string;
   buttonVariant?: 'primary' | 'secondary' | 'outline' | 'ghost' | 'danger';
+  pageUrl:string;
 }
 
 const PageIntro: React.FC<PageIntroProps> = ({
@@ -13,6 +14,7 @@ const PageIntro: React.FC<PageIntroProps> = ({
   description = '',
   buttonLabel = '',
   buttonVariant = 'primary',
+  pageUrl=''
 }) => {
   return (
     <section className="py-10 md:py-12 lg:py-[60px]">
@@ -23,7 +25,7 @@ const PageIntro: React.FC<PageIntroProps> = ({
           </h1>
           <div className="flex flex-col items-center gap-5 lg:items-start lg:gap-7">
             <p>{description}</p>
-            <Link href='/contact-us'>
+            <Link href={pageUrl}>
             <Button variant={buttonVariant}>{buttonLabel}</Button>
             </Link>
           </div>

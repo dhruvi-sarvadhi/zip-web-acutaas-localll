@@ -15,9 +15,8 @@ interface AreaItem {
 const ResearchAreasSection: React.FC = () => {
   const items: AreaItem[] = [
     {
-      title: 'Lorem Ipsum',
-      content:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      title: 'New Chemical Entities',
+      content:'Our work in NCEs drives the discovery and development of novel molecules, opening opportunities for new products and applications that meet emerging market and societal needs.',
         icon: (
           <svg
             viewBox="0 0 40 40"
@@ -32,12 +31,31 @@ const ResearchAreasSection: React.FC = () => {
             <path d="M25.6215 6.60181C25.262 6.60181 24.9705 6.89328 24.9705 7.25285V11.8288C24.9705 12.1883 25.262 12.4798 25.6215 12.4798C25.981 12.4798 26.2725 12.1883 26.2725 11.8288V7.25285C26.2725 6.89334 25.981 6.60181 25.6215 6.60181Z" />
             <path d="M29.5426 6.60181C29.1831 6.60181 28.8916 6.89328 28.8916 7.25285V11.8288C28.8916 12.1883 29.1831 12.4798 29.5426 12.4798C29.9021 12.4798 30.1937 12.1883 30.1937 11.8288V7.25285C30.1937 6.89334 29.9021 6.60181 29.5426 6.60181Z" />
           </svg>
-        ),    },
+        ),    
+    },
     {
-      title: 'Simply Dummy Text',
-      content:
-        'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.',
+      title: 'Contract Research & Manufacturing',
+      content:'Through CRAMS, we provide end-to-end research and production solutions, combining scientific expertise, operational flexibility, and quality to deliver projects efficiently and reliably.',
         icon: (
+          <svg
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-7 h-7 lg:w-10 lg:h-10 transition-colors duration-300 group-data-[state=open]:fill-[#B03B23] fill-[#231F20]"
+          >
+            <path d="M17.777 3.33325H9.27886C7.83856 3.33325 6.66675 4.50506 6.66675 5.94543C6.66675 7.16105 7.50145 8.18534 8.62782 8.47538V31.7665C8.62782 34.4684 10.826 36.6666 13.5279 36.6666C16.2299 36.6666 18.4281 34.4684 18.4281 31.7665V8.47538C19.5544 8.18534 20.3891 7.16105 20.3891 5.94543C20.3891 4.50506 19.2173 3.33325 17.777 3.33325ZM17.1259 31.7665C17.1259 33.7504 15.5119 35.3645 13.5279 35.3645C11.5439 35.3645 9.92983 33.7504 9.92983 31.7665V31.437H14.5084C14.8679 31.437 15.1595 31.1454 15.1595 30.7859V13.1361C15.1595 12.7765 14.8679 12.485 14.5084 12.485H9.92983V8.55754H17.1259L17.1259 31.7665ZM11.8937 26.2127H9.9299V24.2463H11.8937C12.2532 24.2463 12.5447 23.9548 12.5447 23.5953C12.5447 23.2357 12.2532 22.9443 11.8937 22.9443H9.9299V20.9779H11.8937C12.2532 20.9779 12.5447 20.6863 12.5447 20.3268C12.5447 19.9672 12.2532 19.6758 11.8937 19.6758H9.9299V17.7094H11.8937C12.2532 17.7094 12.5447 17.4178 12.5447 17.0583C12.5447 16.6987 12.2532 16.4073 11.8937 16.4073H9.9299V13.7872H13.8574V30.135H9.9299V27.5148H11.8937C12.2532 27.5148 12.5447 27.2233 12.5447 26.8638C12.5447 26.5042 12.2533 26.2127 11.8937 26.2127ZM17.777 7.25545H9.27886C8.55646 7.25545 7.96883 6.66782 7.96883 5.94543C7.96883 5.22303 8.55646 4.63534 9.27886 4.63534H17.777C18.4994 4.63534 19.087 5.22303 19.087 5.94543C19.0871 6.66782 18.4994 7.25545 17.777 7.25545Z" />
+            <path d="M30.8501 3.33325H24.3785C22.9382 3.33325 21.7664 4.50506 21.7664 5.94543V34.0544C21.7664 35.4948 22.9382 36.6666 24.3785 36.6666H30.8501C32.2904 36.6666 33.4623 35.4948 33.4623 34.0544V5.94543C33.4623 4.50506 32.2904 3.33325 30.8501 3.33325ZM32.1602 34.0544C32.1602 34.7768 31.5725 35.3645 30.8501 35.3645H24.3785C23.6561 35.3645 23.0684 34.7768 23.0684 34.0544V5.94543C23.0684 5.22303 23.6561 4.63534 24.3785 4.63534H30.8501C31.5725 4.63534 32.1602 5.22303 32.1602 5.94543V34.0544Z" />
+            <path d="M27.5825 28.1741C26.1422 28.1741 24.9705 29.3459 24.9705 30.7862C24.9705 32.2265 26.1422 33.3984 27.5825 33.3984C29.0229 33.3984 30.1947 32.2265 30.1947 30.7862C30.1947 29.3459 29.0229 28.1741 27.5825 28.1741ZM27.5825 32.0963C26.8602 32.0963 26.2725 31.5086 26.2725 30.7862C26.2725 30.0639 26.8602 29.4762 27.5825 29.4762C28.3049 29.4762 28.8926 30.0639 28.8926 30.7862C28.8926 31.5086 28.3049 32.0963 27.5825 32.0963Z" />
+            <path d="M27.5825 14.4465C26.1422 14.4465 24.9705 15.6183 24.9705 17.0587V23.5957C24.9705 25.0361 26.1422 26.2079 27.5825 26.2079C29.0229 26.2079 30.1947 25.0361 30.1947 23.5957V17.0587C30.1947 15.6183 29.0229 14.4465 27.5825 14.4465ZM28.8926 23.5958C28.8926 24.3181 28.3049 24.9058 27.5825 24.9058C26.8602 24.9058 26.2725 24.3181 26.2725 23.5958V20.9783H28.8926V23.5958ZM28.8926 19.6762H26.2725V17.0587C26.2725 16.3363 26.8602 15.7486 27.5825 15.7486C28.3049 15.7486 28.8926 16.3363 28.8926 17.0587V19.6762Z" />
+            <path d="M25.6215 6.60181C25.262 6.60181 24.9705 6.89328 24.9705 7.25285V11.8288C24.9705 12.1883 25.262 12.4798 25.6215 12.4798C25.981 12.4798 26.2725 12.1883 26.2725 11.8288V7.25285C26.2725 6.89334 25.981 6.60181 25.6215 6.60181Z" />
+            <path d="M29.5426 6.60181C29.1831 6.60181 28.8916 6.89328 28.8916 7.25285V11.8288C28.8916 12.1883 29.1831 12.4798 29.5426 12.4798C29.9021 12.4798 30.1937 12.1883 30.1937 11.8288V7.25285C30.1937 6.89334 29.9021 6.60181 29.5426 6.60181Z" />
+          </svg>
+        ),    
+    },
+    {
+      title: 'Green Chemistry',
+      content:'We apply eco-friendly methods to chemical processes, reducing waste, conserving resources, and ensuring that innovation supports a cleaner, more sustainable future.',
+      icon: (
           <svg
             viewBox="0 0 40 40"
             fill="none"
@@ -51,9 +69,8 @@ const ResearchAreasSection: React.FC = () => {
           </svg>
         ),    },
     {
-      title: 'Contrary to popular belief',
-      content:
-        'Richard McClintock, a Latin professor, looked up one of the more obscure Latin words, consectetur.',
+      title: 'Chiral & Biocatalytic Chemistr',
+      content:'Our expertise in chiral and biocatalytic chemistry delivers precision molecules with high selectivity and efficiency, enabling advanced intermediates for complex applications.',
         icon: (
           <svg
             viewBox="0 0 40 40"
@@ -65,9 +82,8 @@ const ResearchAreasSection: React.FC = () => {
           </svg>
         ),    },
     {
-      title: 'There are many variations',
-      content:
-        'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.',
+      title: 'Advanced Intermediates',
+      content:'We design and produce advanced intermediates that meet stringent quality requirements, supporting industries with reliable building blocks for specialized applications.',
         icon: (
             <svg
               viewBox="0 0 40 40"
@@ -90,7 +106,6 @@ const ResearchAreasSection: React.FC = () => {
           <SectionHeader title="Our Research Areas" />
 
           <div className="grid grid-cols-1 items-start gap-8 lg:grid-cols-2 lg:gap-12">
-            {/* Left: large image */}
             <div className="overflow-hidden rounded-2xl">
               <img
                 src="/images/research-area-image.png"
@@ -101,9 +116,8 @@ const ResearchAreasSection: React.FC = () => {
 
             <div className="flex flex-col gap-6">
               <SectionSideIntro
-                title='Lorem Ipsum is simply dummy text'
-                description='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                  Ipsum has been the industry’s standard dummy text.'/>
+                title='Advancing Research Frontiers'
+                description='We explore strategic areas of study that drive innovation, enable breakthroughs, and strengthen our role in shaping the future of chemistry.'/>
 
               <div className="rounded-2xl bg-white">
                 <Accordion type="single" defaultValue="item-1">

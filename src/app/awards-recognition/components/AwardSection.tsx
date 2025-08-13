@@ -1,6 +1,5 @@
 import SectionHeader from '@/components/common/SectionHeader';
 import { ScanFace } from 'lucide-react';
-import { describe } from 'node:test';
 import React from 'react';
 
 const AwardSection = () => {
@@ -8,37 +7,37 @@ const AwardSection = () => {
         {
             image: '/images/award-image.png',
             name: 'Southern Gujarat Chamber of Commerce and Industry (SGCCI)',
-            description: 'Recognized for exceptional leadership and vision in building a strong, competitive MSME business.',
+            description: 'Awarded for outstanding contribution to the field of education and skill development in the chemical industry.',
             award: 'Trishul Award'
         },
         {
             image: '/images/award-image.png',
             name: 'Federation of Gujarat Industries (FGI)',
-            description: 'Honored for strategic leadership that strengthened growth and inspired excellence across the organization.',
+            description: 'Awarded for outstanding contribution to the field of education and skill development in the chemical industry.',
             award: 'Trishul Award'
         },
         {
             image: '/images/award-image.png',
-            name: 'Trishul Award',
-            description: 'Awarded for exceptional export performance, expanding global reach and contributing to international trade.',
+            name: 'Federation of Gujarat Industries',
+            description: 'Awarded for outstanding contribution to the field of education and skill development in the chemical industry.',
             award: 'Safe & Secure Manufacturing Facility'
         },
         {
             image: '/images/award-image.png',
-            name: 'Trishus Recognized ',
-            description: 'sustained export excellence, driving growth and strengthening presence in global markets.',
+            name: 'Federation of Gujarat Industries (FGI)',
+            description: 'Awarded for outstanding contribution to the field of education and skill development in the chemical industry.',
             award: 'Trishul Award'
         },
         {
             image: '/images/award-image.png',
-            name: 'Safe & Secure Manufacturing Facility',
-            description: 'Honored for creating a safe, compliant, and well-managed manufacturing environment.',
+            name: 'Federation of Gujarat Industries (FGI)',
+            description: 'Awarded for outstanding contribution to the field of education and skill development in the chemical industry.',
             award: 'Trishul Award'
         },
         {
             image: '/images/award-image.png',
-            name: 'SGCCI Golden Jubilee Award',
-            description: 'Recognized for exceptional contributions to research and development that advanced industry capabilities.',
+            name: 'Federation of Gujarat Industries (FGI)',
+            description: 'Awarded for outstanding contribution to the field of education and skill development in the chemical industry.',
             award: 'Trishul Award'
         }
     ];
