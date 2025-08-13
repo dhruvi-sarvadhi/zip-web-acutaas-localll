@@ -55,7 +55,7 @@
         },
         {
           "label": "Research & Development",
-          "href": "/research"
+          "href": "/research-and-development"
         }
       ]
     },
@@ -63,6 +63,10 @@
       "label": "Sustainability",
       "hasSubmenu": true,
       "submenuItems": [
+        {
+          "label": "CSR",
+          "href": "/csr"
+        },
         {
           "label": "Green Chemistry",
           "href": "/sustainability/green-chemistry"

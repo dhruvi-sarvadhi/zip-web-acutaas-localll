@@ -18,7 +18,9 @@ const WhyChooseUsSection: React.FC = () => {
                   Built to Lead in Every Category
                 </h2>
                 <p className="text-base mx-auto lg:mx-0">
-                We bring together advanced science purpose-built systems, and proven experience to serve the world’s most demanding markets with precision, trust, and forward thinking.
+                  We bring together advanced science purpose-built systems, and proven experience to
+                  serve the world’s most demanding markets with precision, trust, and forward
+                  thinking.
                 </p>
               </div>
               <div className="border-t border-[#BCB2B2] w-full my-8 lg:my-10"></div>
@@ -61,10 +63,10 @@ const WhyChooseUsSection: React.FC = () => {
               </div>
               <div className="mt-8 md:mt-12 lg:mt-16 flex items-center gap-6 md:gap-8 lg:gap-10 flex-wrap">
                 <Link href="/contact-us">
-                <Button>Learn More</Button>
+                  <Button>Learn More</Button>
                 </Link>
-                <Link href='/research'>
-                <Button variant="outline">Explore Our Capabilities</Button>
+                <Link href="/research-and-development">
+                  <Button variant="outline">Explore Our Capabilities</Button>
                 </Link>
               </div>
             </div>

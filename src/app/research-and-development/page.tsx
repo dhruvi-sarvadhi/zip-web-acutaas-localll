@@ -37,7 +37,8 @@ const ResearchPage: React.FC = () => {
         ctaLabel="Explore our Solution"
       />
 
-      <SpecificExperienceSection />
+        <SpecificExperienceSection />
+      {/* <ProcessSection /> */}
 
     </>
   );
